@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/quotes.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Quote Generator</h1>
+      <h2>What type of quote are you looking for?</h2>
+    </header>
+    <main>
+      <section class="section">
+        <article class="article">
+          <h4>Looking to laugh?</h4>
+          <!--<img src="images/funny image.png" alt="funny" class="image" />-->
+          <button id="api-button-funny">Give me a funny quote!</button>
+        </article>
+        <article class="article">
+          <h4>Feeling inspired?</h4>
+         <!-- <img src="images/inspiration.png" alt="inspiration" class="image" />-->
+          <button id="api-button-inspirational">
+            Give me an inspiring quote!
+          </button>
+        </article>
+        <article class="article">
+          <h4>What lies in the eyes of the beholder?</h4>
+         <!--- <img src="images/beauty.png" alt="beauty" class="image" />-->
+          <button id="api-button-beauty">Give me a quote for beauty!</button>
+        </article>
+        <article class="article">
+          <h4>Feeling strong, fit and dedicated?</h4>
+         <!-- <img src="images/health.png" alt="health" class="image" />-->
+          <button id="api-button-health">Give me a health quote!</button>
+        </article>
+        <article class="article">
+          <h4>What do Woody & Buzz have in each other?</h4>
+         <!-- <img src="images/friend.png" alt="health" class="image" id="friendimg"/>-->
+          <button id="api-button-friendship">
+            Give me a friendship quote!
+          </button>
+        </article>
+        <article class="article">
+          <h4>Life is like a box of chocolates...</h4>
+          <!--<img src="images/random.png" alt="random" class="image" />-->
+          <button id="api-button-business">Give me a business quote!</button>
+        </article>
+      </section>
+      <div class="quotes">
+        <h2 id="quote-container"></h2>
+        <h2 id="author-container"></h2>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
